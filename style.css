@@ -1,0 +1,77 @@
+
+
+
+main{
+    display: flex;
+    justify-content: center;
+    
+}
+
+section{
+    background-color: rgb(222, 226, 239);
+    padding: 8px;
+    text-align: justify;
+    font-size: 20px;
+    height:700px;
+    width: 300px;;
+    overflow: hidden;
+    border: 8px solid #012d08;
+    border-radius: 15px;
+}
+#div{
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 10%;
+}
+#simione{
+    width: 100%;
+    border-radius: 200px;
+}
+#h{
+    font-family:  Arial, Helvetica, sans-serif;
+    padding: 4px;
+    margin-bottom: 0;
+    width: 100%;
+    font-size: 16px;
+    animation-name: simi;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-duration: 4s;
+}
+@keyframes simi{
+    from{
+        margin-left: 120%;
+
+    }
+    to{
+        margin-left: 0%;
+    }
+}
+#p{
+    margin-top: 0;
+    font-family: garamond, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    height: 90%;
+    width: 100%;
+    font-size: 18px;
+    animation-name: simio;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-duration: 20s;
+}
+@keyframes simio{
+    from{
+        margin-top: 300%;
+        color: black;
+    }
+ 
+    
+    to{
+        color: black;
+        margin-top: 0%;
+    }
+}
+
